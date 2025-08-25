@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-gray-100;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-out;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.prose {
+  @apply text-gray-300;
+}
+
+.prose h2 {
+  @apply text-2xl font-bold text-white mt-12 mb-6;
+}
+
+.prose p {
+  @apply mb-6 leading-relaxed;
+}
