@@ -501,21 +501,9 @@ function DemoPage() {
               <div className="relative text-center">
                 <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto leading-relaxed">
                   This demo was handcrafted by Riley to show what's possible for {data['account name']}. 
-                  If you're ready to attract more customers and boost your Google ranking, let's get it live.
+                  If you're ready to attract more customers and boost your Google ranking, let's get it live. 
+                  Simply reply to my email and get your new site design within 48 hours.
                 </p>
-                
-                <button
-                  onClick={handleMakeLive}
-                  className="group relative px-8 py-4 bg-gradient-to-r from-green-500 to-green-600 
-                    hover:from-green-400 hover:to-green-500 rounded-lg font-semibold text-lg text-white
-                    transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl
-                    hover:shadow-green-500/25"
-                >
-                  <span className="flex items-center gap-2">
-                    Make This Your Real Website
-                    <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                  </span>
-                </button>
               </div>
             </div>
           </div>
